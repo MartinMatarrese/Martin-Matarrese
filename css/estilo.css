@@ -212,6 +212,10 @@ footer {
     margin: 0 auto;
 }
 
+.contacto h4 {
+    color: white;
+}
+
 .redes-container {
     display: flex;
     justify-content: center;
@@ -231,7 +235,7 @@ footer {
 .info-contacto p {
     margin: 5px 0;
     font-size: 16px;
-    color: #333;
+    color: white;
 }
 
 .info-contacto a {
