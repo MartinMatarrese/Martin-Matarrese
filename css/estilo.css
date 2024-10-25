@@ -6,7 +6,7 @@
 
 body { 
     color: #333;
-    background-color: #f9f9f9;
+    background-color: black;
 }
 
 h1, h2 {
@@ -20,8 +20,13 @@ header, footer {
 .perfil {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
+    margin: 20px 10px;
+}
+
+.perfil:hover {
+    cursor: default;
 }
 
 .perfil-imagen {
@@ -29,7 +34,12 @@ header, footer {
     border: 2px solid #ddd;
     filter: drop-shadow(8px, 8px, 4px);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
-    border-radius: 8px;
+    border-radius: 80px;
+    height: 100px;
+}
+
+.perfil p {
+    color: white;
 }
 
 main {
@@ -38,59 +48,96 @@ main {
 }
 
 .sobremi {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .sobremi h2 {
-    text-decoration: underline;
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
     text-align: center;
 }
 
+.sobremi h2:hover {
+    cursor: default;
+}
+
 .sobremi p {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
-    color: #555;
+    color: white;
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.sobremi ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    color: #007bff;
-    font-size: 18px;
-}
-
-.sobremi ul li {
-    margin: 5px 0;
+.sobremi p:hover {
+    cursor: default;
 }
 
 .sobremi p strong {
     color: #007bff;
 }
 
+.experiencia {
+    margin-top: 20px;
+    padding: 15px;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia:hover {
+    cursor: default;
+}
+
+.experiencia h3 {
+    color: white;
+}
+
+.trabajo {
+    display: flex;
+    flex-direction: column;
+}
+
+.trabajo h4 {
+    color: white;
+    margin-top:  10px;
+}
+
+.trabajo p {
+    display: flex;
+    flex-direction: column;
+}
 
 .trabajos {
     padding: 20px;
-    background-color: #007bff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    background-color: black;
 }
 
 .trabajos-h2 {
-    text-decoration: underline;
-    color: black;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
 }
 
+.trabajos-h2:hover {
+    cursor: default;
+}
+
 .trabajos-grid {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -102,33 +149,38 @@ main {
     align-items: center;
     background-color: #f4f4f4b0;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
     padding: 15px;
-    width: 300px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
-.trabajo-card:hover {
-    transform: scale(1.05);
-}
-
 .trabajo-imagen {
-    width: 100%;
+    width: 200px;
     border-radius: 8px;
     margin-bottom: 15px;
     border: 2px solid white;
     filter: drop-shadow(8px, 8px, 4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-.trabajo-imagen-hp {
-    width: 100px;
+.web {
+    width: 200px;
     height: auto;
     border-radius: 8px;
     border: 2px solid #ddd;
     filter: drop-shadow(8px, 8px, 4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
+}
+
+.web:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .trabajo-enlace {
@@ -138,22 +190,205 @@ main {
     font-weight: bold;
 }
 
-.trabajo-enlace:hover {
-    color: #007bff;
+.h2 {
+    color: black;
+}
+
+.lenguajes {
+    display: flex;
+    flex-direction: row;
+}
+.lenguajes img {
+    width: 20px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.html {
+    background-color: #E34F26;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    padding-right: 5px;
+}
+
+.html:hover {
+    transform: scale(1.1, 1.1);
+    cursor: default;
+}
+
+.css {
+    margin-left: 10px;
+    background-color: #1572B6;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    padding-right: 5px;
+}
+
+.css:hover {
+    transform: scale(1.1, 1.1);
+    cursor: default;
+}
+
+.bootstrap {
+    margin-left: 10px;
+    background-color: #7952B3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    padding-right: 5px;
+}
+
+.bootstrap:hover {
+    transform: scale(1.1, 1.1);
+    cursor: default;
+}
+
+.f {
+    margin-left: 10px;
+    background-color:  #DD2C00;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    padding-right: 5px;
+}
+
+.f:hover {
+    transform: scale(1.1, 1.1);
+    cursor: default;
+}
+
+.github {
+    margin-left: 10px;    
+    padding-right: 5px;
+}
+
+.github:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.react {
+    margin-left: 10px;
+    background-color: #61DAFB;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+    padding-right: 5px;
+}
+
+.react:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.link {
+    margin-left: 10px;
+    padding-right: 5px;
+    width: 15px;    
+}
+
+.link:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.habilidades {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
+}
+
+.habilidades h2:hover {
+    cursor: default;
+}
+
+.habilidades-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.habilidades-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+.h {
+    height: 50px;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    margin-right: 20px;
+}
+
+.r:hover {
+    cursor: default;
+}
+
+.sass {
+    background-color: #CC6699;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;
+}
+
+.sass:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.javaScript {
+    background-color: #F7DF1E;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;
+}
+
+.javaScript:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.git {
+    background-color: #F05032;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;
+}
+
+.git:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.firebase {
+    background-color: #DD2C00;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;   
+}
+
+.firebase:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.logos html img {
+    width: 20px;
+    margin: 10px;
 }
 
 .estudios {
     padding: 20px;
     margin: 20px;
-    background-color: #007bff;
+    background-color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
 }
 
 .estudios-h2{
-    text-decoration: underline;
-    color: black;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.estudios-h2:hover {
+    cursor: default;
 }
 
 .estudios-grid {
@@ -184,20 +419,24 @@ main {
     text-decoration: none;
 }
 
+.estudios-card:hover {
+    transform: scale(1.1, 1.1);
+}
+
 .estudios-imagen {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-h3 {
-    font-size: 18px;
-    color: #333;
-    font-weight: bold;
+.estudios-card p:hover {
+    cursor: default;
 }
 
-h3:hover {
-    color: #007bff;
+h3 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
 }
 
 footer {
@@ -223,34 +462,72 @@ footer {
     margin-bottom: 15px;
 }
 
-.redes {
-    width: 40px;
-    transition: transform 0.3s ease;
-}
-
-.redes:hover {
+.redes-container img:hover {
     transform: scale(1.2);
 }
 
-.info-contacto p {
-    margin: 5px 0;
-    font-size: 16px;
+.gmail {
+    display: flex;
+    flex-direction: row;
+}
+
+.gmail img {
+    width: 20px;
+    background-color: white;
+}
+
+.gmail p {
     color: white;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    margin-right: 10px;
+    height: 20px;
 }
 
-.info-contacto a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: bold;
-    transition: color 0.3s ease;
+.gmail p:hover {
+    cursor: default;
 }
 
-.info-contacto a:hover {
-    color: #007bff;
+.whatsAapp img {
+    width: 20px;
+    background-color: white;
+}
+
+.linkedin img {
+    width: 20px;
+    background-color: white;
 }
 
 h4 {
     font-size: 20px;
     margin-bottom: 15px;
     color: #333;
+}
+
+h4:hover {
+    cursor: default;
+}
+
+@media screen and (max-width: 480px) {
+    .perfil p {
+        text-align: start;
+    }
+
+    .trabajo-card {
+        width: 100%;
+    }
+
+    .lenguajes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 10px 10px 10px;
+    }
+    
+    .habilidades-card {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+        margin: 10px 10px 10px;
+    }
 }
