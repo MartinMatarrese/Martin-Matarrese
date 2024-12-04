@@ -21,7 +21,7 @@ header, footer {
 .perfil {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     margin: 20px 10px;
 }
@@ -41,6 +41,9 @@ header, footer {
 
 .perfil p {
     color: white;
+    max-width: 500px;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 main {
@@ -59,31 +62,58 @@ main {
 .sobremi h2 {
     display: flex;
     justify-content: flex-start;
-    font-size: 28px;
     color: white;
-    margin-bottom: 20px;
+    font-size: 24px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .sobremi h2:hover {
     cursor: default;
 }
 
-.sobremi p {
+.sobremi h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.sobremi li {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    color: white;
+    color: black;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.sobremi p {
+    color: black;
 }
 
 .sobremi p:hover {
     cursor: default;
 }
 
-.sobremi p strong {
-    color: #007bff;
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f4b0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding: 15px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .experiencia {
@@ -141,7 +171,6 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .trabajo-card {
@@ -285,6 +314,10 @@ main {
 
 .link:hover {
     transform: scale(1.1, 1.1);
+}
+
+.l{
+    flex-wrap: wrap;
 }
 
 .habilidades {

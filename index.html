@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Martin Matarrrese | Desarrollador web front-end</title>
@@ -16,24 +17,50 @@
             <img class="perfil-imagen" src="./image/perfil.jpg" alt="Foto de perfil de Martin Matarrese">
             <h1>Martin Matarrese</h1>
             <p>Edad: 30 años</p>
-            <p>No soy un robot, soy un <strong>Desarrollador web front-end</strong> que le apasiona la programación.</p>
+            <p>Soy un desarrollador web apasionado, en transición hacia un rol como Desarrollador Web Front-End. Actualmente estudio para ser Desarrollador Full Stack, habiendo finalizado exitosamente la formación en Front-End. Me destaco por mi compromiso, capacidad de aprendizaje y pasión por la programación. Tengo experiencia en HTML, CSS, Sass, Bootstrap, React.js, Firebase y más.</p>
         </div>
     </header>
     <main>
         <section class="sobremi">
-            <h2>&#9733; Sobre mí</h2>
-            <p>Estoy en la búsqueda de un puesto como <strong>Desarrollador Web Front-end.</strong>Actualmente estoy haciendo Backend en coderhause, mi idea es ser <strong>Desarrollador Web Full Stack</strong></p>
-            <div class="experiencia">
-                <h3>Experiencia laboral:</h3>
-                <div class="trabajo"> 
-                    <h4>Estudio juridico Fredes y asociados:</h4>
-                    <p>Manejo hojas excel, hago escritos, oficios y mandamientos. Voy a los juzgados y a las oficinas de mandamientos y notificaciones. También me encargo de la parte administrativa.</p>
+            <h2>&#9733; Experiencia laboral</h2>
+            <div class="card-group">
+                <div class="card" data-aos="zoom-in-up">
+                  <div class="card-body">
+                    <h4>Cadete en Estudio jurídico Fredes y asociados:</h4>
+                    <p>Actualmente trabajando.</p>
+                    <ul>
+                        <li class="list-group-item">•	Gestión de documentos legales, memos y órdenes administrativas.</li>
+                        <li class="list-group-item">•	Manejo de Excel y tareas administrativas.</li>
+                      </ul>
+                  </div>
                 </div>
-                <div class="trabajo">
-                    <h4>Mercado libre flex:</h4>
-                    <p>Trabajé en la parte de repartidor</p>
+                <div class="card" data-aos="zoom-in-up">
+                  <div class="card-body">
+                    <h4>Repartidor en mercado libre flex:</h4>
+                    <p>Actualmente finalizado.</p>
+                    <ul>
+                        <li class="list-group-item">•	Entrega eficiente de paquetes en tiempo y forma.</li>
+                        <li class="list-group-item">•	Desarrollo de habilidades de organización y logística.</li>
+                    </ul>
+                  </div>
                 </div>
             </div>
+                <!-- <div class="trabajo"> 
+                    <h4>Cadete en Estudio juridico Fredes y asociados:</h4>
+                    <p>Actualmente trabajando.</p>
+                    <ul>
+                        <li class="list-group-item">•	Gestión de documentos legales, memos y órdenes administrativas.</li>
+                        <li class="list-group-item">•	Manejo de Excel y tareas administrativas.</li>
+                      </ul>
+                </div>
+                    <h4>Repartidor en mercado libre flex:</h4>
+                    <p>Actualmente finalizado.</p>
+                    <ul>
+                        <li class="list-group-item">•	Entrega eficiente de paquetes en tiempo y forma.</li>
+                        <li class="list-group-item">•	Desarrollo de habilidades de organización y logística.</li>
+                    </ul>
+                </div>
+            </div> -->
         </section>        
         <section class="trabajos">
             <h2 class="trabajos-h2">&#9733; Proyectos</h2>
@@ -43,26 +70,26 @@
                     <h2 class="h2">HARRY POTTER FANS</h2>
                     <h3>Sitio web desarrolado en el curso de desarrollo web de coderhause con:</h3>
                     <div class="lenguajes">
-                        <div class="logos html">
+                        <div class="logos html l">
                             <img src="./image/html5.svg" alt="html5">
                             <p><strong>Html 5</strong></p>
                         </div>
-                        <div class="logos css">
+                        <div class="logos css l">
                             <img src="./image/css3.svg" alt="css3">
                             <p><strong>Css 3</strong></p>
                         </div>
-                        <div class="logos bootstrap">
+                        <div class="logos bootstrap l">
                             <img src="./image/bootstrap.svg" alt="bootstrap">
                             <p><strong>Bootstrap</strong></p>
                         </div>
-                        <div class="logos f">
+                        <div class="logos f l">
                             <img src="./image/firebase.svg" alt="firebase">
                             <p><strong>Firebase</strong></p>
                         </div>
-                        <div class="logos github">
+                        <div class="logos github l">
                             <a href="https://github.com/MartinMatarrese/HARRY-POTTER-FAN" target="_blank" class="trabajo-enlace"><img src="./image/github.svg" alt="github"></a>
                         </div>
-                        <div class="logos link">
+                        <div class="logos link l">
                             <a href="https://martinmatarrese.github.io/HARRY-POTTER-FAN/index.html" target="_blank" class="trabajo-enlace">&#128279;</a>
                         </div>
                     </div>
@@ -172,6 +199,7 @@
             </div>
         </div>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
