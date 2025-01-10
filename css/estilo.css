@@ -334,14 +334,13 @@ main {
 .habilidades-grid {
     display: flex;
     gap: 20px;
-    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .habilidades-card {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-wrap:wrap;
     border-radius: 8px;
     padding: 15px;
     width: 400px;
@@ -364,6 +363,7 @@ main {
     background-color: #CC6699;
     box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
     padding-right: 5px;
+    margin: 20px;
 }
 
 .sass:hover {
@@ -374,6 +374,7 @@ main {
     background-color: #F7DF1E;
     box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
     padding-right: 5px;
+    margin: 20px;
 }
 
 .javaScript:hover {
@@ -384,6 +385,7 @@ main {
     background-color: #F05032;
     box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
     padding-right: 5px;
+    margin: 20px;
 }
 
 .git:hover {
@@ -393,10 +395,43 @@ main {
 .firebase {
     background-color: #DD2C00;
     box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
-    padding-right: 5px;   
+    padding-right: 5px;
+    margin: 20px;   
 }
 
 .firebase:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.node {
+    background-color: #5FA04E;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;   
+}
+
+.node:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.mongo {
+    background-color: #47A248;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;
+    margin: 20px;
+}
+
+.mongo:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.mongoose {
+    background-color: #880000;
+    box-shadow: 0px 2px 4px rgba(244, 239, 239, 0.968);
+    padding-right: 5px;
+    margin: 20px;
+}
+
+.mongoose:hover {
     transform: scale(1.1, 1.1);
 }
 
