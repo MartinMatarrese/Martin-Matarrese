@@ -14,10 +14,6 @@ h1, h2 {
     color: white;
 }
 
-header, footer {
-    background-color: black;
-}
-
 .perfil {
     display: flex;
     flex-direction: column;
@@ -150,7 +146,6 @@ main {
 .trabajos {
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.968);
-    background-color: black;
 }
 
 .trabajos-h2 {
@@ -340,7 +335,7 @@ main {
 .habilidades-card {
     display: flex;
     align-items: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     border-radius: 8px;
     padding: 15px;
     width: 400px;
@@ -510,7 +505,6 @@ h3 {
 
 footer {
     width: 100vw;
-    background-color: black;
     padding: 20px 0;
     text-align: center;
     border-top: 2px solid #e0e0e0;
@@ -543,7 +537,6 @@ footer {
 
 .gmail img {
     width: 20px;
-    background-color: white;
 }
 
 .gmail p {
