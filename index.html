@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Martin Matarrrese | Desarrollador web front-end</title>
+    <title>Martin Matarrrese | Desarrollador web front-end | Desarrolador web backend</title>
     <meta name="description" content="Portfolio de Martin Matarrese, desarrollador web front-end con experiencia en React, JavaScript y CSS.">
     
 </head>
@@ -16,12 +16,14 @@
         <div class="perfil">
             <img class="perfil-imagen" src="./image/perfil.jpg" alt="Foto de perfil de Martin Matarrese">
             <h1>Martin Matarrese</h1>
-            <p>Edad: 31 años</p>
+            <span class="perfil-edad">Edad: 31 años</span>
             <p>Soy Desarrollador Web con experiencia en Frontend y Backend, especializado en la creación de interfaces modernas, intuitivas y responsive utilizando tecnologías como React.js, CSS3 y JavaScript.
 
             Actualmente, estoy ampliando mi perfil hacia el desarrollo Full Stack, trabajando con herramientas del ecosistema Node.js como Express, MongoDB, Mongoose, Multer, motores de plantillas, WebSockets, y sistemas de autenticación mediante Passport (JWT), sesiones y cookies.
 
-            También he integrado servicios de mensajería como Twilio y Nodemailer, y aplico buenas prácticas de desarrollo como la arquitectura por capas, uso de DAO, DTO, controladores y routers personalizados para asegurar proyectos escalables, organizados y mantenibles. Además, realizo testing y documentación de APIs utilizando Swagger.</p>
+            También he integrado servicios de mensajería como Twilio y Nodemailer, y aplico buenas prácticas de desarrollo como la arquitectura por capas, uso de DAO, DTO, controladores y routers personalizados para asegurar proyectos escalables, organizados y mantenibles. Realizo testing y documentación de APIs utilizando Swagger y manejo de docker.
+        
+            Además, cuento con experiencia en SQL y bases de datos relacionales, donde diseñé e implementé un sistema completo para un e-commerce. En este proyecto puse en práctica el modelado y normalización de datos, la creación de tablas con relaciones mediante claves primarias y foráneas, y el desarrollo de consultas avanzadas para obtener reportes de ventas, carritos activos y productos con bajo stock. Asimismo, implementé vistas, funciones y procedimientos almacenados para automatizar procesos, triggers para la actualización del stock en tiempo real y transacciones que garantizaron la integridad de las operaciones críticas.</p>
         </div>
     </header>
     <main>
@@ -55,60 +57,75 @@
                 <div class="estudios-card" data-aos="zoom-in-up">
                     <a href="https://pub.coderhouse.com/certificates/35740184-7334-42a9-bd43-c14338c834dd?v=1" target="_blank"><img class="estudio-imagen" src="./image/coderhouse_logo.jpg" alt="Curso de programación backend 3"><h3>Curso de programación backend 3: Testing y escalabilidad backend</h3></a>
                 </div>
+                <div class="estudios-card" data-aos="zoom-in-up">
+                    <a href="https://pub.coderhouse.com/certificates/379e5595-3835-4eb6-b3c6-1e2cd49c6da4?v=1" target="_blank"><img src="./image/coderhouse_logo.jpg" alt="" class="estudio-imagen"><h3>Curso de SQL</h3></a>
+                </div>
             </div>
         </section>
         <section class="habilidades">
-            <h2>&#9733; Habilidades</h2>
+            <h2 class="habilidades-h2">&#9733; Habilidades</h2>
             <div class="habilidades-grid">
                 <div class="habilidades-card">
-                    <div class="logos html h">
+                    <div class="logos habilidades-html">
                         <img src="./image/html5.svg" alt="html5">
-                        <p><strong>Html 5</strong></p>
+                        <p class="p-logo"><strong>Html 5</strong></p>
                     </div>
-                    <div class="logos css h">
+                    <div class="logos habilidades-css">
                         <img src="./image/css3.svg" alt="css3">
-                        <p><strong>Css 3</strong></p>
-                </div>
-                <div class="logos sass h">
-                    <img src="./image/sass.svg" alt="sass">
-                    <p><strong>Sass</strong></p>
-                </div>
-
-                <div class="logos javaScript h">
-                    <img src="./image/javascript.svg" alt="javascript">
-                    <p><strong>JavaScript</strong></p>
-                </div>
-                <div class="logos react h r">
-                    <img src="./image/react.svg" alt="react">
-                    <p><strong>React js</strong></p>
-                </div>
-                <div class="logos git h">
-                    <img src="./image/git.svg" alt="git">
-                    <p><strong>Git</strong></p>
-                </div>
-                <div class="logos bootstrap h">
-                    <img src="./image/bootstrap.svg" alt="bootstrap">
-                    <p><strong>Bootstrap</strong></p>
-                </div>
-                <div class="logos firebase h">
-                    <img src="./image/firebase.svg" alt="firebase">
-                    <p><strong>Firebase</strong></p>
-                </div>
-                <div class="logos node h">
-                    <img src="./image/nodedotjs.svg" alt="node js">
-                    <p><strong>Node js</strong></p>
-                </div>
-                <div class="logos mongo h">
-                    <img src="./image/mongodb.svg" alt="mongo db">
-                    <p><strong>Mongo DB</strong></p>
-                </div>
-                <div class="logos mongoose h">
-                    <img src="./image/mongoose.svg" alt="mongoose">
-                    <p><strong>Mongoose</strong></p>
-                </div>
-                <div class="logos passport h">
-                    <img src="./image/passport.svg" alt="passport">
-                    <p><strong>Passport</strong></p>
+                        <p class="p-logo"><strong>Css 3</strong></p>
+                    </div>
+                    <div class="logos habilidades-sass">
+                        <img src="./image/sass.svg" alt="sass">
+                        <p class="p-logo"><strong>Sass</strong></p>
+                    </div>
+                    <div class="logos javaScript">
+                        <img src="./image/javascript.svg" alt="javascript">
+                        <p class="p-logo"><strong>JavaScript</strong></p>
+                    </div>
+                    <div class="logos react">
+                        <img src="./image/react.svg" alt="react">
+                        <p class="p-logo"><strong>React js</strong></p>
+                    </div>
+                    <div class="logos git">
+                        <img src="./image/git.svg" alt="git">
+                        <p class="p-logo"><strong>Git</strong></p>
+                    </div>
+                    <div class="logos habilidades-github">
+                        <a href="https://github.com/MartinMatarrese/HARRY-POTTER-FAN" target="_blank" class="trabajo-enlace"><img src="./image/github.svg" alt="github"></a>
+                        <p class="p-logo"><strong>Github</strong></p>
+                    </div>
+                    <div class="logos habilidades-bootstrap">
+                        <img src="./image/bootstrap.svg" alt="bootstrap">
+                        <p class="p-logo"><strong>Bootstrap</strong></p>
+                    </div>
+                    <div class="logos habilidades-firebase">
+                        <img src="./image/firebase.svg" alt="firebase">
+                        <p class="p-logo"><strong>Firebase</strong></p>
+                    </div>
+                    <div class="logos habilidades-node">
+                        <img src="./image/nodedotjs.svg" alt="node js">
+                        <p class="p-logo"><strong>Node js</strong></p>
+                    </div>
+                    <div class="logos mongo">
+                        <img src="./image/mongodb.svg" alt="mongo db">
+                        <p class="p-logo"><strong>Mongo DB</strong></p>
+                    </div>
+                    <div class="logos mongoose">
+                        <img src="./image/mongoose.svg" alt="mongoose">
+                        <p class="p-logo"><strong>Mongoose</strong></p>
+                    </div>
+                    <div class="logos passport">
+                        <img src="./image/passport.svg" alt="passport">
+                        <p class="p-logo"><strong>Passport</strong></p>
+                    </div>
+                    <div class="logos docker">
+                        <img src="./image/docker.svg" alt="docker">
+                        <p class="p-logo"><strong>Docker</strong></p>
+                    </div>
+                    <div class="logos sql">
+                        <img src="./image/mysql.svg" alt="sql">
+                        <p class="p-logo"><strong>MySQL</strong></p>
+                    </div>
                 </div>
             </div>
         </section>        
@@ -120,22 +137,27 @@
                     <h2 class="h2">HARRY POTTER FANS</h2>
                     <h3>Página web temática sobre Harry Potter con diseño adaptativo.</h3>
                     <div class="lenguajes">
-                        <div class="logos html l">
+                        <div class="logos html">
                             <img src="./image/html5.svg" alt="html5">
-                            <p><strong>Html 5</strong></p>
+                            <p class="p-logo"><strong>Html 5</strong></p>
                         </div>
-                        <div class="logos css l">
+                        <div class="logos css">
                             <img src="./image/css3.svg" alt="css3">
-                            <p><strong>Css 3</strong></p>
+                            <p class="p-logo"><strong>Css 3</strong></p>
                         </div>
-                        <div class="logos bootstrap l">
+                        <div class="logos bootstrap">
                             <img src="./image/bootstrap.svg" alt="bootstrap">
-                            <p><strong>Bootstrap</strong></p>
+                            <p class="p-logo"><strong>Bootstrap</strong></p>
                         </div>
-                        <div class="logos github l">
+                        <div class="logos sass">
+                            <img src="./image/sass.svg" alt="sass">
+                            <p class="p-logo"><strong>Sass</strong></p>
+                        </div>
+                        <div class="logos github">
                             <a href="https://github.com/MartinMatarrese/HARRY-POTTER-FAN" target="_blank" class="trabajo-enlace"><img src="./image/github.svg" alt="github"></a>
+                            <p class="p-logo"><strong>Github</strong></p>
                         </div>
-                        <div class="logos link l">
+                        <div class="logos link">
                             <a href="https://martinmatarrese.github.io/HARRY-POTTER-FAN/index.html" target="_blank" class="trabajo-enlace">&#128279;</a>
                         </div>
                     </div>
@@ -147,37 +169,108 @@
                     <div class="lenguajes">
                         <div class="logos html">
                             <img src="./image/html5.svg" alt="html5">
-                            <p><strong>Html 5</strong></p>
+                            <p class="p-logo"><strong>Html 5</strong></p>
                         </div>
                         <div class="logos css">
                             <img src="./image/css3.svg" alt="css3">
-                            <p><strong>Css 3</strong></p>
+                            <p class="p-logo"><strong>Css 3</strong></p>
                         </div>
                         <div class="logos react">
                             <img src="./image/react.svg" alt="react">
-                            <p><strong>React js</strong></p>
+                            <p class="p-logo"><strong>React js</strong></p>
                         </div>
-                        <div class="logos f l">
+                        <div class="logos firebase">
                             <img src="./image/firebase.svg" alt="firebase">
-                            <p><strong>Firebase</strong></p>
+                            <p class="p-logo"><strong>Firebase</strong></p>
                         </div>
-                        <div class="logs github">
+                        <div class="logos github">
                             <a href="https://github.com/MartinMatarrese/tiendaderopadeportiva" target="_blank" class="trabajo-enlace"><img src="./image/github.svg" alt="github"></a>
+                            <p class="p-logo"><strong>Github</strong></p>
                         </div>
                         <div class="logos link">
                             <a href="https://martinmatarrese.github.io/tiendaderopadeportiva/" target="_blank" class="trabajo-enlace">&#128279;</a>
                         </div>
                     </div>
                 </div>
+                <div class="trabajos-grid">
+                <div class="trabajo-card" data-aos="zoom-in-up">
+                    <div id="carouselExampleIndicators" class="carousel slide" >
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./image/diagrama_tienda_fondo_negro.png" class="d-block w-100" alt="diagrama_tienda">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/funcion 1.png" class="d-block w-100 sql1" alt="funcion1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/funcion 2.png" class="d-block w-100" alt="funcion2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/procedure.png" class="d-block w-100" alt="procedimiento1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/procedimiento.png" class="d-block w-100" alt="procedimiento2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/view_active_carts.png" class="d-block w-100" alt="view_active_carts">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/view_low_stock_products.png" class="d-block w-100" alt="view_low_stock_products">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/view_product_reviews.png" class="d-block w-100" alt="view_product_reviews">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/view_products.png" class="d-block w-100" alt="view_products">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/view_ticket_payments.png" class="d-block w-100" alt="view_ticket_payments">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <h2 class="h2">Sistema de gestión de tienda online</h2>
+                    <h3>Base de datos diseñada con MySQL para gestionar productos, carritos y usuarios. Implemente triggers para actualizar stock automaticamente, consultas optimizadas con índices y vistas para reporte de ventas</h3>
+                    <div class="lenguajes">
+                        <div class="logos sql">
+                            <img src="./image/mysql.svg" alt="sql">
+                            <p class="p-logo"><strong>MySQL</strong></p>
+                        </div>
+                        <div class="logos github">
+                            <a href="https://github.com/MartinMatarrese/sistemadegestiondetiendaonline" target="_blank" class="trabajo-enlace"><img src="./image/github.svg" alt="github"></a>
+                            <p class="p-logo"><strong>Github</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <section class="sobremi">
-            <h2>&#9733; Experiencia laboral</h2>
+            <h2 class="sobremi-h2">&#9733; Experiencia laboral</h2>
             <div class="card-group">
                 <div class="card" data-aos="zoom-in-up">
                   <div class="card-body">
                     <h4>Cadete en Estudio jurídico Fredes y asociados:</h4>
-                    <p>Actualmente trabajando.</p>
+                    <p>Actualmente finalizado.</p>
                     <ul>
                         <li class="list-group-item">•	Gestión de documentos legales, memos y órdenes administrativas.</li>
                         <li class="list-group-item">•	Manejo de Excel y tareas administrativas.</li>
@@ -218,6 +311,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>
