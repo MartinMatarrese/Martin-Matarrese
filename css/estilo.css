@@ -851,17 +851,63 @@ body {
     min-width: 70px;
 }
 
-.tecnologia-item[data-tech="html"] { background: #e34f26; color: white; }
-.tecnologia-item[data-tech="css"] { background: #1572b6; color: white; }
-.tecnologia-item[data-tech="bootstrap"] { background: #7952B3; color: white; }
-.tecnologia-item[data-tech="sass"] { background: #CC6699; color: white; }
-.tecnologia-item[data-tech="react"] { background: #61DAFB; color: #2d3748; }
-.tecnologia-item[data-tech="node"] { background: #5FA04E; color: white; }
-.tecnologia-item[data-tech="mongo"] { background: #47A248; color: white; }
-.tecnologia-item[data-tech="mongoose"] { background: #880000; color: white; }
-.tecnologia-item[data-tech="passport"] { background: #34E27A; color: #2d3748; }
-.tecnologia-item[data-tech="sql"] { background: #4479A1; color: white; }
-.tecnologia-item[data-tech="github"] { background-color: #333; }
+.tecnologia-item[data-tech="html"] { 
+    background: #e34f26;
+    color: white;
+}
+
+.tecnologia-item[data-tech="css"] {
+    background: #1572b6;
+    color: white;
+}
+
+.tecnologia-item[data-tech="bootstrap"] {
+    background: #7952B3;
+    color: white;
+}
+
+.tecnologia-item[data-tech="sass"] {
+    background: #CC6699; 
+    color: white; 
+}
+
+.tecnologia-item[data-tech="react"] { 
+    background: #61DAFB; 
+    color: #2d3748;
+}
+
+.tecnologia-item[data-tech="node"] { 
+    background: #5FA04E; 
+    color: white; 
+}
+
+.tecnologia-item[data-tech="mongo"] { 
+    background: #47A248; 
+    color: white;
+}
+
+.tecnologia-item[data-tech="mongoose"] { 
+    background: #880000; 
+    color: white;
+}
+
+.tecnologia-item[data-tech="passport"] { 
+    background: #34E27A; color: #2d3748; 
+}
+
+.tecnologia-item[data-tech="sql"] { 
+    background: #4479A1; 
+    color: white;
+}
+
+.tecnologia-item[data-tech="github"] { 
+    background-color: #333;
+}
+
+.tecnologia-item[data-tech="railway"] {
+    background: #0B0D0E;
+    color: white;
+}
 
 
 
