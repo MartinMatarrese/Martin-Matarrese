@@ -779,6 +779,15 @@ body {
 .habilidad-item[data-tech="passport"] { background-color: #34E27A; color: #2d3748; }
 .habilidad-item[data-tech="docker"] { background-color: #2496ED; color: white; }
 .habilidad-item[data-tech="sql"] { background-color: #4479A1; color: white; }
+.habilidad-item[data-tech="jwt"] {
+    background-color: #2496ED;
+    color: #000000;
+}
+
+.habilidad-item[data-tech="swagger"] {
+    background: #85EA2D;
+    color: white;
+}
 
 .proyecto-card {
     background: var(--bg-white);
@@ -892,7 +901,8 @@ body {
 }
 
 .tecnologia-item[data-tech="passport"] { 
-    background: #34E27A; color: #2d3748; 
+    background: #34E27A; 
+    color: #2d3748; 
 }
 
 .tecnologia-item[data-tech="sql"] { 
@@ -905,11 +915,24 @@ body {
 }
 
 .tecnologia-item[data-tech="railway"] {
-    background: #0B0D0E;
+    background: #34E27A;
     color: white;
 }
 
+.tecnologia-item[data-tech="jwt"] {
+    background-color: #2496ED;
+    color: white;
+}
 
+.tecnologia-item[data-tech="swagger"] {
+    background: #85EA2D;
+    color: white;
+}
+
+.tecnologia-item[data-tech="mercadopago"] {
+    background: #00B1EA;
+    color: white;
+}
 
 .tecnologia-item img {
     width: 20px;
