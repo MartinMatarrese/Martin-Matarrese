@@ -454,6 +454,11 @@ body {
     color: white;
 }
 
+.tecnologia-item[data-tech="docker"] { 
+    background-color: #2496ED; 
+    color: white; 
+}
+
 .tecnologia-item a {
     display: flex;
     flex-direction: column;
